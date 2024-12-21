@@ -1,0 +1,200 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+var menus = [
+
+	{
+        "backMenu":[
+            {
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "新增",
+                            "修改",
+                            "删除"
+                        ],
+                        "menu":"用户管理",
+                        "menuJump":"列表",
+                        "tableName":"yonghu"
+                    }
+                ],
+                "menu":"用户管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "新增",
+                            "修改",
+                            "删除"
+                        ],
+                        "menu":"景点管理",
+                        "menuJump":"列表",
+                        "tableName":"jingdian"
+                    }
+                ],
+                "menu":"景点管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "删除"
+                        ],
+                        "menu":"景点收藏管理",
+                        "menuJump":"列表",
+                        "tableName":"jingdianCollection"
+                    }
+                ],
+                "menu":"景点收藏管理"
+            },
+{
+"child":[
+{
+"buttons":[
+"查看",
+"新增",
+"修改",
+"删除"
+],
+"menu":"路线管理",
+"menuJump":"列表",
+"tableName":"luxian"
+}
+],
+"menu":"路线管理"
+}
+,{
+"child":[
+{
+"buttons":[
+"查看",
+"删除"
+],
+"menu":"路线收藏管理",
+"menuJump":"列表",
+"tableName":"luxianCollection"
+}
+],
+"menu":"路线收藏管理"
+}
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "新增",
+                            "修改",
+                            "删除"
+                        ],
+                        "menu":"酒店管理",
+                        "menuJump":"列表",
+                        "tableName":"jiudian"
+                    }
+                ],
+                "menu":"酒店管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "修改",
+                            "删除"
+                        ],
+                        "menu":"酒店留言管理",
+                        "menuJump":"列表",
+                        "tableName":"jiudianLiuyan"
+                    }
+                ],
+                "menu":"酒店留言管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "删除"
+                        ],
+                        "menu":"酒店订单管理",
+                        "menuJump":"列表",
+                        "tableName":"jiudianOrder"
+                    }
+                ],
+                "menu":"酒店订单管理"
+            }
+
+        ],
+        "frontMenu":[
+
+        ],
+        "roleName":"管理员",
+        "tableName":"users"
+    }
+	,{
+        "backMenu":[
+                {
+                "child":[
+                    {
+                        "buttons":[
+                            "查看"
+                        ],
+                        "menu":"景点收藏管理",
+                        "menuJump":"列表",
+                        "tableName":"jingdianCollection"
+                    }
+                ],
+                "menu":"景点收藏管理"
+            },
+{
+"child":[
+{
+"buttons":[
+"查看"
+],
+"menu":"路线收藏管理",
+"menuJump":"列表",
+"tableName":"luxianCollection"
+}
+],
+"menu":"路线收藏管理"
+}
+
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看"
+                        ],
+                        "menu":"酒店留言管理",
+                        "menuJump":"列表",
+                        "tableName":"jiudianLiuyan"
+                    }
+                ],
+                "menu":"酒店留言管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看"
+                        ],
+                        "menu":"酒店订单管理",
+                        "menuJump":"列表",
+                        "tableName":"jiudianOrder"
+                    }
+                ],
+                "menu":"酒店订单管理"
+            }
+        ],
+        "frontMenu":[
+
+        ],
+        "roleName":"用户",
+        "tableName":"yonghu"
+    }
+];
+
+var hasMessage = '';
