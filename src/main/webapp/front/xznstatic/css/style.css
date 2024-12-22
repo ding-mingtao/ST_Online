@@ -291,10 +291,10 @@ h1 {
 
 .vertical-tab .section-w3ls article {
     display: none;
-    /* left: 230px; */
-    min-width: 800px;
+    top: 100px;
+    left: 200px;
+    min-width: 250px;
     position: absolute;
-    top: 0;
 }
 
 /* .vertical-tab .section-w3ls article:after {
@@ -329,7 +329,7 @@ label.icon-left-w3pvt span {
 
 /* form style */
 .sub-main-w3 form {
-    background: #ffff;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 2em;
 }
 
@@ -363,7 +363,8 @@ p.para-style-2 a {
     margin-bottom: 1em;
     padding: 4px 15px;
     border: 1px solid #eee;
-    background: #eee;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -482,7 +483,7 @@ a.bottom-text-w3ls {
     }
 
     .vertical-tab .section-w3ls article {
-        min-width: 445px;
+        min-width: 250px;
     }
 
     p.para-style-2 {

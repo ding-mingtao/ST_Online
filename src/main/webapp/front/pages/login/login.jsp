@@ -6,7 +6,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>汕头旅游网站管理系统登录</title>
+  <title>汕头旅游网站登录</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>
     addEventListener("load", function () {
@@ -20,12 +20,11 @@
   <link rel="stylesheet" href="../../layui/css/layui.css">
   <link rel="stylesheet" href="../../xznstatic/css/style.css" type="text/css" media="all">
   <link href="../../xznstatic/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="/lvyouwangzhan/resources/images/1.png">
+  <link rel="shortcut icon" type="image/png" href=”${pageContext.request.contextPath}/resources/assets2/ico/1.png“>
 </head>
 
-<body>
-<div id="mian"  style="background-image: url('../resources/images/2.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #262626; min-height: 100vh;">
-    <h1 style="color: black" align="center">汕头旅游网站管理系统登录</h1>
+<body style="background-image: url('../resources/images/4.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #262626; min-height: 100vh;">
+<div id="mian">
   <!--使用(layui leiying )的表单验证 确保输入框不能为空-->
     <div class="sub-main-w3">
             <div class="vertical-tab">
@@ -36,13 +35,13 @@
               <div class="layui-form-item layui-form-text input">
                   <span style="margin-top: 8px;float: left">账户:</span>
                 <div class="layui-input-inline">
-                  <input type="text" name="username"  lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input"  style="width: 500px;">
+                  <input type="text" name="username"  lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input"  style="width: 250px;">
                 </div>
               </div>
               <div class="layui-form-item input">
                   <span style="margin-top: 8px;float: left">密码:</span>
                 <div class="layui-input-inline" >
-                  <input type="password" name="password" lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input"  style="width: 500px;">
+                  <input type="password" name="password" lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input"  style="width: 250px;">
                 </div>
               </div>
               <div class="layui-form-item input">
