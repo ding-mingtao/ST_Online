@@ -7,7 +7,13 @@
 	<%@ include file="jsp/static/head.jsp"%>
 </head>
 <style>
-
+	@font-face {
+		font-family: 优设标题黑;
+		src: url("/resources/fonts/优设标题黑.ttf");
+	}
+	body{
+		font-family: 优设标题黑, serif;
+	}
 </style> 
 <body>
 	<!-- Pre Loader -->
@@ -70,7 +76,8 @@
 					<div class="col-md-12">
 						<div class="widget-area-2 lochana-box-shadow min-h200" style="height: 700px;">
 							<h3 class="widget-title"> </h3>
-							<h1 align="center" style="margin-top: 250px;"><strong>欢迎使用xxx系统</strong></h1>
+							<h1 align="center" style="margin-top: 250px;">
+								<strong>欢迎来到用户管理端</strong></h1>
 						</div>
 					</div>
 				</div>
@@ -86,10 +93,6 @@
 		</div>
 		<!-- /Page Content -->
 	</div>
-	<!-- Back to Top -->
-	<a id="back-to-top" href="#" class="back-to-top">
-			<span class="ti-angle-up"></span>
-	</a>
 	<!-- /Back to Top -->
 	<%@ include file="jsp/static/foot.jsp"%>
 

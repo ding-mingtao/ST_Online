@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 var baseUrl = "http://localhost:8080/lvyouwangzhan/";
-var projectName = "厦门旅游网站管理系统"
+var projectName = "汕头旅游网站管理系统"
 
 /**
  * 网络请求

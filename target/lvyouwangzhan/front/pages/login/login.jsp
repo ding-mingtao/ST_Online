@@ -6,7 +6,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>厦门旅游网站管理系统登录</title>
+  <title>汕头旅游网站管理系统登录</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>
     addEventListener("load", function () {
@@ -25,7 +25,7 @@
 
 <body>
 <div id="mian"  style="background-image: url('../resources/images/2.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #262626; min-height: 100vh;">
-    <h1 style="color: black" align="center">厦门旅游网站管理系统登录</h1>
+    <h1 style="color: black" align="center">汕头旅游网站管理系统登录</h1>
   <!--使用(layui leiying )的表单验证 确保输入框不能为空-->
     <div class="sub-main-w3">
             <div class="vertical-tab">

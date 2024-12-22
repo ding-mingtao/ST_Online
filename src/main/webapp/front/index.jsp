@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
-    <title>厦门旅游网站管理系统</title>
+    <title>汕头旅游网站管理系统</title>
     <link rel="stylesheet" href="./layui/css/layui.css">
     <link rel="stylesheet" href="./xznstatic/css/aos.css" />
     <link rel="stylesheet" href="./xznstatic/css/app.css" />

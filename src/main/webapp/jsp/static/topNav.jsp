@@ -1,7 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 	<style>
+		@font-face {
+			font-family: 优设标题黑;
+			src: url("/resources/fonts/优设标题黑.ttf");
+		}
 		.top-brand {
+			font-family: 优设标题黑, serif;
 			position: fixed;
 			top: 0;
 			z-index: 998;
@@ -9,10 +14,10 @@
 			height: 64px;
 			padding: 0;
 			margin: 0;
-			border-radius: 0;
+			border-radius: 20px;
 			border-width: 0 0px 70px 0;
 			border-style: solid;
-			border-color: palevioletred;
+			border-color: rgba(30, 144, 255, .5);
 			background-color: rgba(255, 255, 255, 1);
 			box-shadow: 0 0 0px rgba(30, 144, 255, .8);
 		}
@@ -21,11 +26,11 @@
 			height: 64px;
 			padding: 0 35px;
 			margin: 0;
-			border-radius: 0;
+			border-radius: 20px;
 			border-width: 0;
 			border-style: solid;
 			border-color: rgba(0,0,0,.3);
-			background-color: rgba(255, 255, 255, 1);
+			background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 			box-shadow: 0 0 6px rgba(30, 144, 255, 0);
 			justify-content: space-between;
 			display: flex;
@@ -39,8 +44,8 @@
 			line-height: 44px;
 			padding: 0;
 			margin: 0;
-			color: palevioletred;
-			font-size: 20px;
+			color: #495057;
+			font-size: 30px;
 			border-radius: 0;
 			border-width: 0;
 			border-style: solid;
@@ -72,7 +77,7 @@
 			border-width: 0;
 			border-style: solid;
 			border-color: rgba(0,0,0,.3);
-			background-color: palevioletred;
+			background-color: #495057;
 			box-shadow: 0 0 0px rgba(0, 0, 0, .3);
 		}
 		
@@ -111,7 +116,7 @@
 			border-width: 0;
 			border-style: solid;
 			border-color: #333;
-			background-color: #333;
+			background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 			box-shadow: 0 0 6px rgba(30, 144, 255, 0);
 			text-align: center;
 		}
@@ -125,7 +130,7 @@
 			border-width: 0;
 			border-style: solid;
 			border-color: rgba(0,0,0,.3);
-			background-color: #fff;
+			background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 			box-shadow: 0 0 6px rgba(30, 144, 255, 0);
 		}
 		
@@ -207,7 +212,7 @@
 			border-width: 1px 0 0 0;
 			border-style: solid;
 			border-color: rgba(0,0,0,.3);
-			background-color: #fff;
+			background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 			box-shadow: 0 0 6px rgba(30, 144, 255, 0);
 		}
 		
@@ -308,7 +313,7 @@
 					<div class="menu-list-title"></div>
 					<nav class="navbar navbar-default">			
 						<div class="navbar-header">
-							<a href="${pageContext.request.contextPath}/index.jsp">厦门旅游网站管理系统</a>
+							<a href="${pageContext.request.contextPath}/index.jsp">用户端</a>
 						</div>
 						<ul class="nav justify-content-end">
 							<li class="nav-item">

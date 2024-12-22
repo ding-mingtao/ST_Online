@@ -10,7 +10,7 @@
 
 
 
-var projectName = '厦门旅游网站管理系统';
+var projectName = '汕头旅游网站管理系统';
 /**
  * 轮播图配置
  */

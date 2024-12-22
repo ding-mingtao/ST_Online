@@ -188,7 +188,7 @@
         border-radius: 20px;
         border-width: 0;
         border-style: solid;
-        border-color: #ccc;
+        border-color: white;
         background-color: rgb(192,57,81,0.5);
         box-shadow: thistle;
     }
