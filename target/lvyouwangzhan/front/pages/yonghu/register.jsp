@@ -22,14 +22,13 @@
   <link href="../../xznstatic/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="/lvyouwangzhan/resources/images/1.png">
 </head>
-<body>
-<div id="mian"  style="background-image: url('../resources/images/2.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #262626; min-height: 100vh;">
-    <h1 style="color: black" align="center">汕头旅游网站管理系统注册</h1>
+<body style="background-image: url('../resources/images/4.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #262626; min-height: 100vh;">
+<div id="mian">
     <div class="sub-main-w3">
             <div class="vertical-tab">
         <div id="section1" class="section-w3ls">
           <input type="radio" name="sections" id="option1" checked="checked">
-            <article>
+            <article style="top: 0px; left: 0px;">
               <form class="layui-form login-form" lay-filter="register">
                 <div class="layui-form-item layui-form-text input">
                     <div class="layui-inline" >

@@ -6,7 +6,7 @@ provinceAndCitys: {11:"北京",12:"天津",13:"河北",14:"山西",15:"内蒙古
 65:"新疆",71:"台湾",81:"香港",82:"澳门",91:"国外"},
 powers: ["7","9","10","5","8","4","2","1","6","3","7","9","10","5","8","4","2"],
 parityBit: ["1","0","X","9","8","7","6","5","4","3","2"],
-genders: {male:"男",female:"女"},
+genders: {female:"女",male:"男"},
 checkAddressCode: function(addressCode){
 var check = /^[1-9]\d{5}$/.test(addressCode);
 if(!check) return false;
