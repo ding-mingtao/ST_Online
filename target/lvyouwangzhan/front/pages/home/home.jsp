@@ -206,7 +206,7 @@
             newsList: [],
             jiudianList: [],
             swiperList: [{
-                img: '../../img/banner.jpg'
+                img: '../img/banner.jpg'
             }]
         },
         filters: {

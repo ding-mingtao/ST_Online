@@ -6,7 +6,7 @@
 			src: url("/resources/fonts/优设标题黑.ttf");
 		}
 		.top-brand {
-			font-family: 优设标题黑, serif;
+			font-family: 优设标题黑, serif !important;
 			position: fixed;
 			top: 0;
 			z-index: 998;
@@ -40,7 +40,8 @@
 		}
 		
 		.top-brand .navbar-default .navbar-header a {
-						width: auto;
+			width: auto;
+			font-family: 优设标题黑, serif;
 			line-height: 44px;
 			padding: 0;
 			margin: 0;
