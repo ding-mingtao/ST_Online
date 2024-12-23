@@ -161,7 +161,7 @@
                       </div>
         
                       <div class="layui-inline" style="margin-left: 30px;margin-bottom: 10px;">
-                          <button id="btn-search" type="button" class="layui-btn" style="background-color: pink;">
+                          <button id="btn-search" type="button" class="layui-btn" style="background-color: black;">
                               搜索
                           </button>
                           <button type="reset" class="layui-btn layui-btn-primary">重置</button>

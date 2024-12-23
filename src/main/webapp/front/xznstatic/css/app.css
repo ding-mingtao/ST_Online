@@ -236,10 +236,11 @@ body {
   margin-left: 6px;
 }
 .am-headerv {
-  width: 1200px;
+  width: 100%;
   /*overflow:hidden;*/
   height: 104px;
   margin: 0px auto;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   position: relative;
 }
 .am-logo {
@@ -303,25 +304,25 @@ body {
   width: 0%;
   height: 100%;
   margin: 0px auto 0px;
-  background-color: #f1b0b7;
+  background-color: #fffffe;
 }
 .am-pc-nav > ul > li .am-pclink {
   display: block;
   padding: 0px 10px;
   line-height: 41px;
-  color: #3F3E3E;
+  color: #f7eeee;
   height: 42px;
   border-radius: 4px;
   margin-top: 19px;
   margin-bottom: 19px;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   -webkit-transition: all .3s ease 0s;
   -moz-transition: all .3s ease 0s;
   -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 .am-pc-nav > ul > li.ng-nav-activate .am-pclink, .am-pc-nav > ul > li:hover .am-pclink {
-  color: #f1b0b7;
+  color: #fffffe;
 }
 .am-pc-nav > ul > li.ng-nav-activate .am-pclink-borv > span {
   width: 100% !important;

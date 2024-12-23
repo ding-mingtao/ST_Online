@@ -122,7 +122,7 @@
                 </div>
               </div>   
               <div class="layui-inline" style="margin-left: 30px;margin-bottom: 10px;">
-                <button id="btn-search" type="button" class="layui-btn" style="background-color: pink;">
+                <button id="btn-search" type="button" class="layui-btn" style="background-color: black;">
                   搜索
                 </button>
                 <button v-if="isAuth('users','新增')" @click="jump('../users/add.jsp')" type="button" class="layui-btn btn-theme">

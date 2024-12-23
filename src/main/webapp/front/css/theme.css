@@ -4,27 +4,27 @@
 }
 
 .layui-nav .layui-nav-item a {
-	color: #f1b0b7;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .layui-nav .layui-this:after,
 .layui-nav-bar,
 .layui-nav-tree .layui-nav-itemed:after {
-	background-color: #f1b0b7;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .layui-nav .layui-nav-item a:hover {
 	color: #FFFFFF;
-	background-color: #f1b0b7;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .layui-nav .layui-nav-child dd.layui-this a,
 .layui-nav-child dd.layui-this {
-	background-color: #f1b0b7;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .layui-nav-tree .layui-nav-child dd.layui-this, .layui-nav-tree .layui-nav-child dd.layui-this a, .layui-nav-tree .layui-this, .layui-nav-tree .layui-this>a, .layui-nav-tree .layui-this>a:hover {
-    background-color: pink;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     color: black;
 }
 
@@ -244,17 +244,17 @@
 }
 
 .btn-submit {
-	background: pink;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .btn-theme{
-	background: pink;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 
 /* checkbox */
 .layui-form-radio>i:hover, .layui-form-radioed>i {
-    color: pink;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .layui-form-select dl dd.layui-this {
