@@ -18,7 +18,7 @@ import java.io.Serializable;
  * @email
  * @date 2021-04-02
  */
-public class JiudianLiuyanModel implements Serializable {
+public class  JiudianLiuyanModel implements Serializable {
     private static final long serialVersionUID = 1L;
 
 

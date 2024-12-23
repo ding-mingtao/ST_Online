@@ -16,7 +16,7 @@ public interface DictionaryService extends IService<DictionaryEntity> {
     * @param params 查询参数
     * @return 带分页的查询出来的数据
     */
-     PageUtils queryPage(Map<String, Object> params);
+     PageUtils queryPage(Map<String, Object> params );
       /**
       * 字典表转换
       * @param obj

@@ -28,7 +28,7 @@ import com.baomidou.mybatisplus.enums.IdType;
  * @date
  */
 @TableName("dictionary")
-public class DictionaryEntity<T> implements Serializable {
+public class  DictionaryEntity<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
 

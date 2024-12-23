@@ -12,5 +12,5 @@ import java.util.Map;
  */
 public interface JingdianService extends IService<JingdianEntity> {
 
-     PageUtils queryPage(Map<String, Object> params);
+     PageUtils queryPage(Map<String, Object> params );
 }

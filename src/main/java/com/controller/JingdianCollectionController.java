@@ -44,7 +44,7 @@ import com.utils.R;
 @RestController
 @Controller
 @RequestMapping("/jingdianCollection")
-public class JingdianCollectionController {
+public class  JingdianCollectionController {
     private static final Logger logger = LoggerFactory.getLogger(JingdianCollectionController.class);
 
     @Autowired

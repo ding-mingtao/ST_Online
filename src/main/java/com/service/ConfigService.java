@@ -12,5 +12,5 @@ import com.utils.PageUtils;
  * 系统用户
  */
 public interface ConfigService extends IService<ConfigEntity> {
-	PageUtils queryPage(Map<String, Object> params);
+	PageUtils queryPage(Map<String, Object> params );
 }

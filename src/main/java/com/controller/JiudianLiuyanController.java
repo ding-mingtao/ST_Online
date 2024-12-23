@@ -42,7 +42,7 @@ import com.utils.R;
 @RestController
 @Controller
 @RequestMapping("/jiudianLiuyan")
-public class JiudianLiuyanController {
+public class  JiudianLiuyanController {
     private static final Logger logger = LoggerFactory.getLogger(JiudianLiuyanController.class);
 
     @Autowired

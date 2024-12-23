@@ -40,7 +40,7 @@ import com.utils.R;
 @RestController
 @Controller
 @RequestMapping("/dictionary")
-public class DictionaryController {
+public class  DictionaryController {
     private static final Logger logger = LoggerFactory.getLogger(DictionaryController.class);
 
     @Autowired

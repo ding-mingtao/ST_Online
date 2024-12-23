@@ -28,7 +28,7 @@ import com.baomidou.mybatisplus.enums.IdType;
  * @date
  */
 @TableName("jingdian_collection")
-public class JingdianCollectionEntity<T> implements Serializable {
+public class  JingdianCollectionEntity<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
 
